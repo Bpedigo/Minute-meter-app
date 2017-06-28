@@ -1,0 +1,106 @@
+body{
+  font-family: 'Lobster', cursive;
+}
+
+.lg{
+  margin-bottom: 10px;
+  height: 90px;
+  width: 90px;
+  border-radius: 100%;
+  border: 5px solid white;
+  background: none;
+  color:white;
+  font-size: 20px;
+  transition-property:background;
+  transition-duration: .04s;
+}
+
+.lg:hover{
+  background: black;
+}
+
+.subTitle{
+  margin-top: -40px;
+  color: black;
+}
+
+.timerTitle{
+  display: block;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.facade{
+  margin: 40px auto;
+  max-width: 90%;
+  font-size: 25px;
+  text-align: center;
+  color: white;
+  background-color: red;
+  border: 2px solid black;
+  border-radius:25% 25% 25%;
+}
+
+.clockFace{
+  margin: 25px auto;
+  max-width: 90%;
+  text-align: center;
+}
+
+.face{
+  margin-top: 25px;
+  box-shadow: 0 0 0 0 rgba(69, 152, 27, 0.5);
+}
+
+.timerLabel{
+  display:block;
+}
+
+.timeSetter {
+  font-size: 40px;
+  font-weight: bold;
+  background: none;
+  border:none;
+}
+
+.hands{
+  font-size: 80px;
+  background: black;
+  color: white;
+  text-align: center;
+  border-radius: 25px;
+  box-shadow: 0 0 0 0 rgba(69, 152, 27, 0.5);
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.buttonWrapper button{
+  font-size: 40px;
+  background: none;
+  border:none;
+}
+
+button{
+  transition-property:color;
+  transition-duration: .04s;
+}
+
+button:hover {    
+    color:red;
+}
+
+.green{
+  color: #09e510;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% {   
+  }
+  70% {
+    box-shadow: 0 0 0 50px rgba(9, 229, 16, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(9, 229, 16, 0);
+  }
+}
